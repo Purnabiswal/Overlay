@@ -1,0 +1,9 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyOverlay.OverlayForm.<>c.<.ctor>b__58_2(Object state) in C:\myFolder\Projects\Windows APPS\browser\MyOverlay\OverlayForm.cs:line 41
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
